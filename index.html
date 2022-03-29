@@ -17,16 +17,11 @@
     <div id="pagewidth">
         <div id="wrapper" class="clearfix">
             <section id="maincol">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum vulputate commodo. In bibendum odio at maximus mollis. Morbi dignissim quam in lorem facilisis, vel eleifend orci malesuada. Sed ex metus, sodales ac molestie sed, bibendum eget tortor. Quisque scelerisque cursus vestibulum. Vestibulum congue mauris ut nunc ultricies malesuada. Nullam egestas mauris in est mattis, eu convallis erat mattis. Duis pulvinar, velit vitae mollis sollicitudin, erat lorem eleifend ante, id scelerisque ipsum nisl et nisi. Morbi feugiat purus justo, non tristique tellus mattis a. Aenean finibus dapibus odio eleifend tempor. Ut congue in arcu ut interdum.</h3>
-                <div class="d-inline-flex flex-grow-1 card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-
-                    </div>
-                </div>
+                <h3 id="cityheader"></h3>
+                <p id="tempnow"></p>
+                <p id="windnow"></p>
+                <p id="humidnow"></p>
+                <p id="UVnow"></p>
 
                 <div class="d-inline-flex flex-grow-1 card" style="width: 18rem;">
                     <div class="card-body">
@@ -37,7 +32,17 @@
 
                     </div>
                 </div>
+
                 <div class="d-inline-flex flex-grow-1 card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                    </div>
+                </div>
+                <div class="d-inline-flex flex-grow-1   card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -50,14 +55,16 @@
 
             </section>
             <div id="leftcol">
-                <h3>Go ahead, give it a search!</h3>
-                <textarea placeholder="enter your city here"></textarea>
+                <h3>Give it a try!</h3>
+                <input id="searchfield" placeholder="enter your city here"></input>
+                <button id="searchbutton"></button>
             </div>
 
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./Assets/script.js"></script>
 </body>
 
 </html>

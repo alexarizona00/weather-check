@@ -28,31 +28,8 @@ html, body{
     
    
     
-
-   .clearfix:after {
-    content: "."; 
-    display: block; 
-   height: 0; 
-    clear: both; 
-    visibility: hidden;
-    }
-    
-   .clearfix{display: inline-block;}
-   
-   /* Hides from IE-mac \*/
-   * html .clearfix{height: 1%;}
-   .clearfix{display: block;}
-   /* End hide from IE-mac */  
-   
-   
-    
-    
-   /* ******************************************************************** */ 
-   /*                      printer styles                                  */ 
-   /* ******************************************************************** */ 
-        
-    @media print{ 
-   /*hide the left column when printing*/ 
-   #leftcol{display:none;} 
-   #twocols, #maincol{width:100%; float:none;}
-   }
+.card-body{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+}
