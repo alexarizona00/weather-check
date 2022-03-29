@@ -16,39 +16,58 @@
     </nav>
     <div id="pagewidth">
         <div id="wrapper" class="clearfix">
-            <section id="maincol">
-                <h3 id="cityheader"></h3>
-                <p id="tempnow"></p>
-                <p id="windnow"></p>
-                <p id="humidnow"></p>
-                <p id="UVnow"></p>
-
-                <div class="d-inline-flex flex-grow-1 card" style="width: 18rem;">
+            <section id="maincol" style="display:none">
+                <div id="currentcard">
+                    <h3 id="cityheader"></h3>
+                    <p id="tempnow"></p>
+                    <p id="windnow"></p>
+                    <p id="humidnow"></p>
+                    <p id="UVnow"></p>
+                </div>
+                <h2 id="fivedayforecast">5-Day Forecast</h2>
+                <div id='fivecardone' class="d-inline-flex flex-grow-1 card" style=" width: 10rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-
+                        <p id=date1></p>
+                        <p id="temp1"></p>
+                        <p id='wind1'></p>
+                        <p id="humid1"></p>
                     </div>
                 </div>
 
-                <div class="d-inline-flex flex-grow-1 card" style="width: 18rem;">
+                <div id='fivecardtwo' class="d-inline-flex flex-grow-1 card" style="width: 10rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-
+                        <p id=date2></p>
+                        <p id="temp2"></p>
+                        <p id='wind2'></p>
+                        <p id="humid2"></p>
                     </div>
                 </div>
-                <div class="d-inline-flex flex-grow-1   card" style="width: 18rem;">
+                <div id='firecardthree' class="d-inline-flex flex-grow-1   card" style="width: 10rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p id=date3></p>
+                        <p id="temp3"></p>
+                        <p id='wind3'></p>
+                        <p id="humid3"></p>
+                    </div>
+                </div>
 
+
+                <div id='fivecardfour' class="d-inline-flex flex-grow-1 card" style="width: 10rem;">
+                    <div class="card-body">
+                        <p id=date4></p>
+                        <p id="temp4"></p>
+                        <p id='wind4'></p>
+                        <p id="humid4"></p>
+                    </div>
+                </div>
+
+                <div id='fivecardfive' class="d-inline-flex flex-grow-1 card" style="width: 10rem;">
+                    <div class="card-body">
+
+                        <p id=date5></p>
+                        <p id="temp5"></p>
+                        <p id='wind5'></p>
+                        <p id="humid5"></p>
                     </div>
                 </div>
 
@@ -57,14 +76,17 @@
             <div id="leftcol">
                 <h3>Give it a try!</h3>
                 <input id="searchfield" placeholder="enter your city here"></input>
-                <button id="searchbutton"></button>
+                <button id="searchbutton"><i class="fa-solid fa-magnifying-glass-arrow-right"></i></button>
             </div>
 
         </div>
     </div>
-
+   
+    <script src="https://kit.fontawesome.com/0b495be49a.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="./Assets/script.js"></script>
+    
 </body>
 
 </html>
