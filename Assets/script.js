@@ -15,7 +15,7 @@ searchButton.addEventListener('click', function () {
   city = searchText.value
   console.log(city)
 
-  fetch("https://api.openweathermap.org/data/2.5/weather?q=" + city + '&units=imperial&appid=f9b6ea43279bd22f926c1e54b46af35a')
+  fetch("https://api.openweathermap.org/data/2.5/weather?q=" + city + '&units=imperial&appid=ea7c6aed441b6888e5a12f5ec4d6ed26')
     .then(response => response.json())
     .then(data => {
       console.log(data)
