@@ -18,7 +18,7 @@ searchButton.addEventListener('click', function () {
   fetch("https://api.openweathermap.org/data/2.5/weather?q=" + city + '&units=imperial&appid=f9b6ea43279bd22f926c1e54b46af35a')
     .then(response => response.json())
     .then(data => {
-      console.log(data.name)
+      console.log(data)
       lat = data.coord.lat;
       long = data.coord.lon;
       cityheader.textContent = data.name

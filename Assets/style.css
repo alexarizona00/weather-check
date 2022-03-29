@@ -31,9 +31,13 @@ html, body{
 }
 
 #currentcard{
+
+    border-radius: 5px; 
     border: 3px dashed black;
     margin-right: 5px;
-    
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
 }
 
 #fivedayforecast{
@@ -42,4 +46,8 @@ display: block;
 
 #fivecardone , #fivecardtwo , #fivecardthree, #fivecardfour , #fivecardfive{
     display: block;
+    background-color: gray;
+     margin: 25px;
+     font-weight: bold;
+     color: navy;
 }
